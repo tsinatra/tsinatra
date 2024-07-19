@@ -1,0 +1,16 @@
+{
+  "extends": "./node_modules/gts/tsconfig-google.json",
+  "compilerOptions": {
+    "module": "esnext",
+    "types": [
+      "reflect-metadata"
+    ],
+    "moduleResolution": "node",
+    "lib": ["es2020", "esnext", "dom"],
+    "target": "es2020",
+    "baseUrl": "./",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "esModuleInterop": true
+  }
+}
